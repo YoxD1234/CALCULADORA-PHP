@@ -1,0 +1,44 @@
+/****************************DANIEL**********************************/
+*{
+    background-color: #ffffff;
+    margin: auto;/*CENTRADO*/
+    box-sizing: border-box; /*DELIMITAR LOS BORDES*/
+    font-family: 'Montserrat Alternates', sans-serif;/*FUENTE*/
+}
+.container{
+    width: 100vw;/*ANCHO TODA LA PANTALLA*/
+    height: 100vh;/*ALTO TODA LA PANTALLA*/
+    display: flex; /*CONVERTIR ELEMENTOS EN TIPO FLEXIBLE COMO INLINE*/
+    align-items: center;/*ALINEAR ELEMENTOS*/
+    justify-content: center;/*JUSTIFICAR CONTENIDO*/
+}
+
+form input{
+    border: 2px solid #076a7e;/*BORDE*/
+    border-radius: 7px;/*BORDE CIRCULAR*/
+    padding: 12px;/*ESPACIADO ENTRE ELEMENTOS HACIA ADENTRO*/
+    background-color: #ec6344;/*COLOR DE FONDO*/
+    width: 100%;/*ANCHO*/
+    color: rgb(0, 0, 0);/*COLOR DE LETRA*/
+    font-size: 15px;/*TAMAÑO DE LETRA*/
+    text-align: center;/*ALINEAR EL TEXTO*/
+    font-weight: 700;/*TAMAÑO DE FUENTE DE LETRA*/
+}
+input::placeholder{
+    color: #2C3A40;/*COLOR DE LETRA*/
+    font-weight: 400;/*TAMAÑO DE FUENTE DE LETRA*/
+}
+
+table{
+    background-color: #2C3A40;/*COLOR DE FONDO*/
+    border: 2px solid #6BD9F2;/*BORDE*/
+    border-radius: 8px;/*BORDE CIRCULAR*/
+    padding: 18px;/*ESPACIADO ENTRE ELEMENTOS HACIA ADENTRO*/
+    width: 400px;/*ANCHO*/
+}
+td{
+    border-radius: 7px;/*BORDE CIRCULAR*/
+}
+.tipotexto{
+    background-color: white;/*COLOR DE FONDO*/
+}
